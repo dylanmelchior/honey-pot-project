@@ -10,7 +10,7 @@
 - iostream
 - fstream
 
-- The honeypot must be ran on an Ubunutu host. This tool is not for production usage, and is merely a development/practice tool.
+- The honeypot must be ran on an Ubunutu host. This tool is not for production usage, and is merely a development/practice tool. Compile using g++.
 
 ## Ethical Considerations and Misuse
 - This tool is a defensive tool and thus misuage is unlikely. It does give a false sense of security, as 
