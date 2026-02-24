@@ -2,6 +2,7 @@
 
 ## Overview
 - This project is a simple honeypot server. It currently can only handle one TCP connection at a time, listening on port 4444. It appends to a log file with the client IP Address, source port, and destination port. The server does nothing else except for handling a connection and logging. It has room for expansion to create an elaborate honeypot server. Dependencies are as follows:\
+  
   netinet/in.h\
   arpa/inet.h\
   sys/socket.h\
