@@ -1,14 +1,14 @@
 # honey-pot-project
 
 ## Overview
-- This project is a simple honeypot server. It currently can only handle one TCP connection at a time, listening on port 4444. It appends to a log file with the client IP Address, source port, and destination port. The server does nothing else except for handling a connection and logging. It has room for expansion to create an elaborate honeypot server. Dependencies are as follows:
+- This project is a simple honeypot server. It currently can only handle one TCP connection at a time, listening on port 4444. It appends to a log file with the client IP Address, source port, and destination port. The server does nothing else except for handling a connection and logging. It has room for expansion to create an elaborate honeypot server. Dependencies are as follows:\
   netinet/in.h\
   arpa/inet.h\
   sys/socket.h\
   unistd.h\
   cstring\
   iostream\
-  fstream\
+  fstream
 
 - The honeypot must be run on an Ubuntu host. This tool is not for production usage and is merely a development/practice tool. Compile using g++.
 
